@@ -1,0 +1,10 @@
+{
+  "name": "teja-portfolio",
+  "version": "1.0.0",
+  "description": "Angular Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "python3 -m http.server 3000"
+  }
+}
