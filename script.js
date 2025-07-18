@@ -1,31 +1,24 @@
 // Custom Cursor
 document.addEventListener('DOMContentLoaded', function() {
     const cursor = document.querySelector('.cursor-glow');
-    let mouseX = 0;
-    let mouseY = 0;
-    let cursorX = 0;
-    let cursorY = 0;
 
     // Update mouse position
     document.addEventListener('mousemove', (e) => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
+        if (cursor) {
+            cursor.style.left = (e.clientX - 12) + 'px';
+            cursor.style.top = (e.clientY - 12) + 'px';
+        }
     });
 
-    // Smooth cursor follow
-    function animateCursor() {
-        const speed = 0.15;
-        cursorX += (mouseX - cursorX) * speed;
-        cursorY += (mouseY - cursorY) * speed;
-        
-        if (cursor) {
-            cursor.style.left = cursorX - 10 + 'px';
-            cursor.style.top = cursorY - 10 + 'px';
-        }
-        
-        requestAnimationFrame(animateCursor);
-    }
-    animateCursor();
+    // Show cursor when mouse enters window
+    document.addEventListener('mouseenter', () => {
+        if (cursor) cursor.style.opacity = '1';
+    });
+
+    // Hide cursor when mouse leaves window
+    document.addEventListener('mouseleave', () => {
+        if (cursor) cursor.style.opacity = '0';
+    });
 
     // Cursor hover effects
     const interactiveElements = document.querySelectorAll('a, button, .btn, .social-link, .project-card, .glass-card');
@@ -33,15 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
     interactiveElements.forEach(el => {
         el.addEventListener('mouseenter', () => {
             if (cursor) {
-                cursor.style.transform = 'scale(1.5)';
-                cursor.style.background = 'radial-gradient(circle, rgba(139, 92, 246, 0.8) 0%, rgba(56, 189, 248, 0.4) 50%, transparent 70%)';
+                cursor.classList.add('hover');
             }
         });
         
         el.addEventListener('mouseleave', () => {
             if (cursor) {
-                cursor.style.transform = 'scale(1)';
-                cursor.style.background = 'radial-gradient(circle, rgba(56, 189, 248, 0.8) 0%, rgba(139, 92, 246, 0.4) 50%, transparent 70%)';
+                cursor.classList.remove('hover');
             }
         });
     });
