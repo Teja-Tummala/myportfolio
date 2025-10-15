@@ -1,3 +1,6 @@
 {
-  "template": "angular"
+  "startCommand": "npm start",
+  "httpServer": {
+    "port": 3000
+  }
 }
