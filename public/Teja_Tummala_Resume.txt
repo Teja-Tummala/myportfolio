@@ -1,0 +1,89 @@
+TEJA TUMMALA
+Angular Developer | Full Stack Developer
+
+Email: tummalatejaram@gmail.com
+LinkedIn: linkedin.com/in/teja-tummala-86abb3192
+GitHub: github.com/Teja-Tummala
+
+PROFESSIONAL SUMMARY
+Dedicated Angular Developer with 4+ years of professional experience in building scalable, maintainable web applications. Currently expanding expertise in Node.js backend development. Proven track record of delivering high-quality solutions with focus on clean code, performance optimization, and user experience.
+
+TECHNICAL SKILLS
+Frontend Development:
+- Angular (Expert) - Component architecture, Services, RxJS, HTTP Client, Angular Forms, Routing
+- TypeScript - Strong proficiency in OOP, interfaces, generics, type safety
+- HTML5 & CSS3 - Semantic markup, responsive design, CSS Grid, Flexbox
+- JavaScript (ES6+) - Modern JavaScript patterns and best practices
+- State Management - NgRx, RxJS Observables
+
+Backend Development (Learning):
+- Node.js - Currently learning
+- Express.js - Basic understanding
+- RESTful APIs - Fundamental concepts
+
+Tools & Technologies:
+- Git & GitHub - Version control and collaboration
+- Angular CLI - Project scaffolding and optimization
+- npm & package management
+- Visual Studio Code
+- Chrome DevTools
+- Jasmine & Karma - Unit testing
+
+PROFESSIONAL EXPERIENCE
+
+Senior Angular Developer | [Company Name] | [Dates]
+- Developed and maintained enterprise-level Angular applications with complex business logic
+- Implemented responsive UI components using Angular Material and custom CSS
+- Managed state using RxJS Observables and NgRx for complex application flows
+- Optimized application performance through lazy loading, change detection optimization, and bundle size reduction
+- Collaborated with backend team to integrate RESTful APIs
+- Mentored junior developers on Angular best practices and coding standards
+- Participated in code reviews and maintained high code quality standards
+
+Angular Developer | [Company Name] | [Dates]
+- Built reusable Angular components following component-driven architecture
+- Implemented reactive forms with comprehensive validation
+- Created custom pipes and directives to enhance component functionality
+- Developed routing strategies for multi-module applications
+- Implemented error handling and user feedback mechanisms
+- Worked with TypeScript strictly to ensure type safety
+
+PROJECTS
+
+E-Commerce Platform
+Technologies: Angular, TypeScript, RxJS, Angular Material, REST APIs
+- Designed and developed complete product catalog with advanced filtering and search
+- Implemented shopping cart management with real-time updates
+- Built user authentication and profile management system
+- Created admin dashboard for inventory and order management
+- Optimized performance achieving 90+ Lighthouse score
+
+Project Management Tool
+Technologies: Angular, TypeScript, Firebase, Angular Material
+- Developed project dashboard with real-time collaboration features
+- Implemented task tracking system with drag-and-drop functionality
+- Built team member management and permission system
+- Integrated Firebase for real-time database synchronization
+- Created responsive UI for mobile and desktop platforms
+
+Analytics Dashboard
+Technologies: Angular, TypeScript, RxJS, D3.js, REST APIs
+- Built interactive data visualization dashboard with multiple chart types
+- Implemented customizable widgets with drag-and-drop interface
+- Created filtering and export functionality for data analysis
+- Optimized data loading with pagination and virtual scrolling
+- Designed responsive layouts for various screen sizes
+
+EDUCATION
+Bachelor's Degree in [Field] | [University Name] | [Graduation Year]
+
+CERTIFICATIONS & COURSES
+- Angular Professional Development Certificate
+- Advanced TypeScript Training
+- Currently: Node.js Fundamentals Course (In Progress)
+
+ADDITIONAL INFORMATION
+- Open source contributor
+- Active in developer communities
+- Continuously learning new technologies and best practices
+- Strong problem-solving and communication skills
